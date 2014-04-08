@@ -35,7 +35,7 @@ window.updateSrcSet = (function(window, document) {
                         url:        srcAttributeValue,
                         width:      Number.POSITIVE_INFINITY,
                         height:     Number.POSITIVE_INFINITY,
-                        density:    1.0
+                        density:    Number.POSITIVE_INFINITY
                     });
                 }
 
