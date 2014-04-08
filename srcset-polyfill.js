@@ -59,7 +59,7 @@ window.updateSrcSet = (function(window, document) {
 
                     width = isNaN(width) ? Number.POSITIVE_INFINITY : width;
                     height = isNaN(height) ? Number.POSITIVE_INFINITY : height;
-                    density = isNaN(density) ? 1.0 : density;
+                    density = isNaN(density) ? Number.POSITIVE_INFINITY : density;
 
                     parsedCandidates.push({
                         url:        filename,
